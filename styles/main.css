@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    
+}
 h1 {
     text-align: center;
 }
@@ -8,36 +15,40 @@ h2 {
 main {
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(rgb(80, 80, 219), rgb(76, 202, 76), rgb(228, 207, 207));
+    background-image: linear-gradient(white, rgb(128, 173, 190),rgb(80, 80, 219), rgb(76, 202, 76), rgb(228, 207, 207), white);
 }
 
 img {
     border: 1px solid black;
     width: auto;
     height: 100px;
-    
+    box-shadow: 3px 3px 2px rgb(22, 37, 102);
 }
 
 .fish-list-box {
     padding: 10px;
     border: 1px solid black;
     margin: 5px;
+    box-shadow: 10px 5px 5px rgb(22, 37, 102);
 }
 
 .tips-and-locations-container {
     border: 1px solid black;
     padding: 10px;
     margin: 5px;
+    box-shadow: 10px 5px 5px rgb(22, 37, 102);
 }
 
 .tips-aside {
     border: 1px solid black;
     margin: 5px;
+    box-shadow: 10px 5px 5px rgb(22, 37, 102);
 }
 
 .fish-container {
     border: 1px solid black;
     display: flex;
+    box-shadow: 3px 3px 2px rgb(22, 37, 102);
 }
 
 .fish-container-info {
