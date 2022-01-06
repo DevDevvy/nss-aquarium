@@ -8,6 +8,7 @@ h2 {
 main {
     display: flex;
     justify-content: space-around;
+    background-image: linear-gradient(rgb(80, 80, 219), rgb(76, 202, 76), rgb(228, 207, 207));
 }
 
 img {
@@ -20,15 +21,18 @@ img {
 .fish-list-box {
     padding: 10px;
     border: 1px solid black;
+    margin: 5px;
 }
 
 .tips-and-locations-container {
     border: 1px solid black;
     padding: 10px;
+    margin: 5px;
 }
 
 .tips-aside {
     border: 1px solid black;
+    margin: 5px;
 }
 
 .fish-container {
