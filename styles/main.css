@@ -30,6 +30,7 @@ img {
     border: 1px solid black;
     margin: 5px;
     box-shadow: 10px 5px 5px rgb(22, 37, 102);
+    flex: 3;
 }
 
 .tips-and-locations-container {
@@ -37,11 +38,13 @@ img {
     padding: 10px;
     margin: 5px;
     box-shadow: 10px 5px 5px rgb(22, 37, 102);
+    flex: 2;
 }
 
 .tips-aside {
     border: 1px solid black;
-    margin: 5px;
+    margin: 15px;
+    padding:10px;
     box-shadow: 10px 5px 5px rgb(22, 37, 102);
 }
 
@@ -49,11 +52,13 @@ img {
     border: 1px solid black;
     display: flex;
     box-shadow: 3px 3px 2px rgb(22, 37, 102);
+    
 }
 
 .fish-container-info {
     padding: 10px;
 }
 .tips-aside {
+    flex:3
     padding: 10px;
 }

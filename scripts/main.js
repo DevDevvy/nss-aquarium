@@ -1,4 +1,4 @@
-import { getFish } from './database.js'
+import { getFish } from './fish/database.js'
 
 const allFish = getFish()
 
@@ -7,7 +7,7 @@ for (const fish of allFish) {
 }
 
 // Import the FishList function from the correct module
-import { Fishlist } from 'FishList.js'
+import { FishList } from './fish/FishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -16,7 +16,7 @@ import { Fishlist } from 'FishList.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector(".fish-list-container")
+const parentHTMLElement = document.querySelector("#fishies")
 
 
 parentHTMLElement.innerHTML = FishList()
